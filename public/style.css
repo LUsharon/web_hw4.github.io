@@ -1,0 +1,39 @@
+body {
+    background-color: #E6E6FA;
+}
+
+form{
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label,input{
+    margin-bottom: 10px;
+}
+
+.submit{
+    background-color: #DDA0DD;
+    width: 100px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.link{
+    background-color: #D8BFD8;
+    width: 100px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}

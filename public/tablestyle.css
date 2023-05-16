@@ -1,0 +1,29 @@
+/* tablestyle.css */
+body {
+    background-color: #E6E6FA;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+input,button{
+    width:100px;
+}
+/* 表格边框样式 */
+#data-table {
+    border-collapse: collapse;
+}
+
+#data-table th,
+#data-table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* 表格居中對齊 */
+#data-table, h1,input, button{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
