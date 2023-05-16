@@ -1,11 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="all">
+    <h1>原物料價格輸入</h1>
+    <form id="flour" action="http://localhost:3000/api" method="post">
+        <!--    date name price-->
+        <label for="date">日期</label>
+        <input type="date" id="data" name="date">
+        <label for="name">商品名稱</label>
+        <input type="text" id="name" name="name">
+        <label for="price">價格</label>
+        <input type="text" id="price" name="price">
+        <button class="submit" type="submit">輸入</button>
+    </form>
+    <button class="link" onclick="goToInsertPage()">查看資料</button>
+</div>
 
-<form id="flour" action="http://localhost:3000/api" method="post">
-<!--    date name price-->
-    <label for="date">Date</label>
-    <input type="date" id="data" name="date">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name">
-    <label for="price">Price</label>
-    <input type="text" id="price" name="price">
-    <button type="submit">Submit</button>
-</form>
+<script>
+    function goToInsertPage() {
+        window.location.href = "datatable.html";
+    }
+</script>
+
+</body>
+</html>
